@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datele personale </title>
+     <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+</body>
+</html>
+ <!DOCTYPE html>
+<html lang="ro" dir="ltr">
+<meta charset="utf-8">
+  <head>
+        <style type="text/css">
+      .admin{
+        left:395px;
+        background-color:white;
+        color:blue;
+        border:2px solid black;
+        padding:5px 5px;
+        display:inline-block;
+        font-size:16px;
+        margin:4px 2px;
+        cursor:pointer;
+      }
+      #ancheta{
+        margin-top:8px;
+        margin-left:400px;
+        background-color:gray;
+        border:5px solid black;
+        width:550px;
+        height:675px;
+        opacity: 0.95;
+      }
+      .name{
+        text-align: left;
+        float:left;
+        margin-left: 17px;
+        padding-right:5px; 
+      }
+      input{
+        border: 3px solid black;
+      }
+      .value{
+        float:left;
+        margin-right:15px;
+      }
+    </style>
+  </head>
+  <body style="margin:0; height:85%; background-image:url('default.jpg');background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment: fixed; " >
+</body>
+
+    <div id="ancheta">
+ <h3 align="center">
+ 	<form>
+  <h1 align="center">Date personale</h1>
+	<div class="form-wrap">
+  <div class="profile"><img src="admin.png" heigh="100", width="150">
+  </div>
+  </form>
+  <form method="post" action="form.php">
+    <div>
+      <label class="name" for="name">Name</label>
+      <div>
+      <input class="value" type="text" name="name" required>
+    </div>
+
+        <div>
+      <label class="name" for="name">Surname</label>
+      <div>
+      <input  type="text" name="name" required>
+    </div>
+        <div style="padding-top: 8px;">
+      <label class="name" for="date">Date</label>
+      <div>
+      <input style="margin-left:10px;" class="value" type="date" name="date" required>
+    </div>
+    <div class="radio">
+     <div>
+      <label style="margin-left:68px" class="name" for="date">Phone</label>
+      <div>
+      <input  type="mobile" name="fix/mobil" required>
+    </div>
+    <div style="padding-top: 8px;">
+      <label class="name" for="email">Mail</label>
+      <div>
+      <input  style="float:left;margin-left:10px;" type="email" name="email" required>
+    </div>
+    <div>
+      <label style="margin-left:38px;" class="name" for="country">Country</label>
+    <div>
+      <input  type="text" name="name" required>
+    </div>
+    <div style="padding-top:8px;">
+          <span>Gender</span>
+        </div>
+      <div>
+      <label style="margin-left:150px;" class="name">
+        <input  type="radio" name="sex" value="Masculin">Male
+        <div class="radio-control male"></div>
+      </label>
+      <label>
+        <input <align="center" type="radio" name="sex" value="feminin">Female
+        <div class="radio-control female"></div>
+      </label>
+    </div>
+</form>
+<form>
+ <p><h3 align="center">Informatii referitor la automobile</h3></p>
+<select required>
+<option>Selectati suma dorita</option>
+<option>1000 &#128 - 3000 &#128 </option>
+<option>3000 &#128 - 5000 &#128 </option>
+<option>5000 &#128 - 7000 &#128 </option>
+<option>7000 &#128 - 9000 &#128 </option>
+<option>10000 &#128 - 14000 &#128 </option>
+<option>14000 &#128 - 18000 &#128 </option>
+<option>18000 &#128 - 22000 &#128 </option>
+<option>22000 &#128 - 26000 &#128 </option>
+<option>27000 &#128 - 33000 &#128 </option>
+<option>33000 &#128 - 39000 &#128 </option>
+<option>39000 &#128 - 45000 &#128 </option>
+<option>45000 &#128 - 51000 &#128 </option>
+<option>52000 &#128 - 60000 &#128 </option>
+<option>60000 &#128 - 68000 &#128 </option>
+<option>68000 &#128 - 76000 &#128 </option>
+<option>76000 &#128 - 84000 &#128 </option>
+<option>84000 &#128 - 92000 &#128 </option>
+<option>92000 &#128 - 100000 &#128 </option>
+<option>100000 &#128 - ... &#128 </option>
+</select>
+</form>
+<form>
+<select required>
+<option> Selectati marca dorita</option>
+<option>Abarth</option>
+<option>Alfa Romeo</option>
+<option>Asia Motors</option>
+<option>Aston Martin</option>
+<option>Audi</option>
+<option>Austin</option>
+<option>Autobianchi</option>
+<option>Bentley</option>
+<option>BMW</option>
+<option>Bugati</option>
+<option>Buick</option>
+<option>Cadillac</option>
+<option>Carver</option>
+<option>Chevrolet</option>
+<option>Chrysler</option>
+<option>Citroen</option>
+<option>Corvete</option>
+<option>Dacia</option>
+<option>Daewoo</option>
+<option>Daihatsu</option>
+<option>Daimler</option>
+<option>Datsun</option>
+<option>Dodge</option>
+<option>Donkervoort</option>
+<option>DS</option>
+<option>Ferrari</option>
+<option>Fiat</option>
+<option>Ford</option>
+<option>FSO</option>
+<option>Galloper</option>
+<option>Honda</option>
+<option>Hummer</option>
+<option>Hyundai</option>
+<option>Infiniti</option>
+<option>Innocenti</option>
+<option>Jaguar</option>
+<option>Jeep</option>
+<option>Josse</option>
+<option>Kia</option>
+<option>Lada</option>
+<option>Lamborghini</option>
+<option>Lancia</option>
+<option>Lotus</option>
+<option>Land Rover</option>
+<option>Landwind</option>
+<option>Lexus</option>
+<option>Lincoln</option>
+<option>Marcos</option>
+<option>Maserati</option>
+<option>Maybach</option>
+<option>Mazda</option>
+<option>McLaren</option>
+<option>Mega</option>
+<option>Mercedes</option>
+<option>Mercury</option>
+<option>MG</option>
+<option>Mini</option>
+<option>Mitsubishi</option>
+<option>Morgan</option>
+<option>Morris</option>
+<option>Nissan</option>
+<option>Opel</option>
+<option>Peugeot</option>
+<option>PGO</option>
+<option>Pontiac</option>
+<option>Porsche</option>
+<option>Princess</option>
+<option>Renault</option>
+<option>Rolls_Royce</option>
+<option>Rover</option>
+<option>Range Rover</option>
+<option>Saab</option>
+<option>Seat</option>
+<option>Skoda</option>
+<option>Smart</option>
+<option>Spectre</option>
+<option>SsangYong</option>
+<option>Subaru</option>
+<option>Suzuki</option>
+<option>Talbot</option>
+<option>Tesla</option>
+<option>Think</option>
+<option>Toyota</option>
+<option>Triumph</option>
+<option>TVR</option>
+<option>Volkswagen</option>
+<option>Volvo</option>
+<option>Yugo</option>
+</select>
+</form>
+<form>
+<select required>
+<option>Selectati tipul de alimentare</option>
+<option>Diesel</option>
+<option>Benzina</option>
+<option>GPL</option>
+</select>
+</form>
+<form>
+<select required>
+<option>Selectati tipul cutiei de viteza</option>
+<option>Transmisie manuala</option>
+<option>Transmisie automata</option>
+<option>Robotic Box</option>
+<option>Caseta variabila</option>
+</select>
+</form>
+<form>
+<select required>
+<option>Selectati puterea motorului</option>
+<option>Puterea motorului - 0 - 50 hp</option>
+<option>Puterea motorului - 50 - 100 hp</option>
+<option>Puterea motorului - 100 - 150 hp</option>
+<option>Puterea motorului - 150 - 200 hp</option>
+<option>Puterea motorului - 200 - 250 hp</option>
+<option>Puterea motorului - 250 - 300 hp</option>
+<option>Puterea motorului - 300 - 350 hp</option>
+<option>Puterea motorului - 350 - 400 hp</option>
+<option>Puterea motorului - 400 - 450 hp</option>
+<option>Puterea motorului - 450 - 500 hp</option>
+<option>Puterea motorului - 500 - ... hp</option>
+</select>
+</form>
+<form>
+<select required>
+<option> Selectati nr. de locuri al automobilului</option>
+<option>2 locuri - 4 locuri</option>
+<option>4 locuri - 6 locuri</option>
+<option>6 locuri - 8 locuri</option>
+</select>
+</form>
+<form>
+  <option></option>
+</form>
+</h3>
+<button class="admin"style="margin-left:222px;" onClick="window.location='indeex.php';">Trimitere Datelor</button>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body,html{
+    margin:0;
+    height: 100%;
+    }
+    button{
+      position: fixed;
+      bottom:20px;
+      }
+      .button
+      {
+        position: fixed;
+        bottom:20px;
+        right:30px;
+        width:60px;
+       
+      }
+      .butto{
+        position:fixed;
+        bottom:20px;
+        left:30px;
+        width:60px;
+      }
+      .sorry{
+        padding-top:0px;
+        margin-left:30px;
+        width:100px;
+        height:100px; 
+        margin-top:-30px;
+      }
+      .lll{
+        margin-top:-585px;
+      }
+      a{
+        text-decoration-color: yellow;
+        text-decoration:yellow;
+        color:yellow;
+      }
+      .ccc{
+        position:fixed;
+        top:140px;
+        right:-30px;
+      }
+  </style> 
+     <button class="butto" onClick="window.location='index.html';">&#9754;</button>
+      <button class="button" onClick="window.location='indeex.php';">&#9755;</button>
+   </body>  
+</head>
+<div class="lll">
+<a style="
+        text-decoration-color: red;
+        text-decoration:red;
+        color:red;" href="index.html"><h2 href="http://www.google.com" class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: yellow;
+        text-decoration:yellow;
+        color:yellow;
+      " href="select_auto.html"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: blue;
+        text-decoration:blue;
+        color:blue;
+        " href="indeex.php"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: red;
+        text-decoration:red;
+        color:red;" href="send_email.html"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: yellow;
+        text-decoration:yellow;
+        color:yellow;" href="http://automd.su"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: blue;
+        text-decoration:blue;
+        color:blue;" href="http://automd.su"><h2 class="sorry">&#9783;</h2></a>
+<div class="ccc">
+<a style="
+        text-decoration-color: red;
+        text-decoration:red;
+        color:red;" href="index.html"><h2 href="http://www.google.com" class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: yellow;
+        text-decoration:yellow;
+        color:yellow;
+      " href="select_auto.html"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: blue;
+        text-decoration:blue;
+        color:blue;
+        " href="indeex.php"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: red;
+        text-decoration:red;
+        color:red;" href="send_email.html"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: yellow;
+        text-decoration:yellow;
+        color:yellow;" href="http://automd.su"><h2 class="sorry">&#9783;</h2></a>
+<a style="
+        text-decoration-color: blue;
+        text-decoration:blue;
+        color:blue;
+        " href="https://success.md/ro?gclid=Cj0KCQjwz6PnBRCPARIsANOtCw3OcQL3B_C4nHjpkt_9DU0t9CMsWelEkJr4j7uQsVYKBPNhiGF8zNoaAsxcEALw_wcB"><h2 class="sorry">&#9783;</h2></a></div>
+</html>
+
